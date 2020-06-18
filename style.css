@@ -1,0 +1,19 @@
+.turn {
+    animation-duration: 1s;
+    animation-name: turn;
+}
+
+@keyframes turn {
+    0%  {transform: rotate(0deg);}
+    100% {transform: rotate(45deg);}
+}
+
+.unset {
+    animation-duration: 0.1s;
+    animation-name: reset;
+}
+
+@keyframes reset {
+    0%  {transform: rotate(45deg);}
+    1% {transform: rotate(0deg);}
+    100% {transform: rotate(0deg);}
