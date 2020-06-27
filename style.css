@@ -49,6 +49,9 @@ h1 {
 }
 
 .input-item {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     color: var(--off-black--);
     font-size: 16px;
     font-family: inherit;
@@ -59,9 +62,13 @@ h1 {
     border: 1px solid var(--base-color--);
 }
 
+#amount-field {
+    width: 50%;
+}
+
 #btn {
     margin-top: 56px;
-    width: 100%;
+    width: 50%;
     color: white;
     background-color: var(--light-color--);
 }
