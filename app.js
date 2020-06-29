@@ -7,7 +7,7 @@ const button = document.querySelector('#btn'),
       quoteEL = document.querySelector('#quote'),
       quoteRateEL = document.querySelector('#quote-rate');
 
-amountInputEL.onkeydown = () => {
+amountInputEL.onkeyup = () => {
     setButton();
 }
 
